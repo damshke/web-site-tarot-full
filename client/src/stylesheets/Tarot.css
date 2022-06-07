@@ -1,0 +1,26 @@
+.center {
+    text-align: center;
+}
+
+.tarot-frame figure {
+    display: block;
+    float: left;
+}
+
+.tarot-frame figure img {
+    width: 200px;
+    height: 300px;
+    margin: 25px 25px 0 25px;
+}
+
+.tarot-frame {
+    text-align: center;
+    margin-bottom: 30%;
+    margin-left: 5%;
+    margin-right: auto;
+    display: block;
+}
+
+.tarot-frame figure figcaption {
+    text-align: center;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@300&family=Inter:wght@300&display=swap');
+
+/* === Auth Form === */
+
+/* body and the overall top of the site */
+
+.up {
+    font-family: 'Alumni Sans';
+    color: rgb(0, 0, 0);
+    line-height: 10px;
+    padding: 20px;
+}
+
+img.picture {
+    text-align: center;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.menu {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+.main-font {
+    color: burlywood;
+}
+
+.in {
+    font-family: "Lucida Grande";
+    text-align: left;
+}
+
+/* Full-width input fields */
+
+form.signin>label {
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+form.signin input[type=text],
+form.signin input[type=password] {
+    width: 70%;
+    padding: 15px;
+    margin: 20px 0 22px 0;
+    display: block;
+    background: #f1f1f1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    border: 1px rgb(73, 122, 160);
+}
+
+.signinbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+    position: relative;
+    left: 45%;
+}
+
+.signinbtn:hover {
+    opacity: 1;
+}
+
+.error {
+    color: red;
+    margin-left: 5px;
+}
+
+label.error {
+    display: inline;
+}

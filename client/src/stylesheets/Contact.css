@@ -1,0 +1,36 @@
+/* Form VK */
+.up {
+    font-family: 'Alumni Sans';
+    color: rgb(0, 0, 0);
+    line-height: 10px;
+    padding: 20px;
+}
+
+img.picture {
+    text-align: center;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.box {
+    background: rgb(248, 248, 248);
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    transition-property: background, border-radius;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    width: 95px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.box:hover {
+    background: rgb(104, 203, 91);
+    border-radius: 50%;
+}
